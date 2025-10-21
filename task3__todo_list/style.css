@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.todo-wrapper {
+  width: 100%;
+  max-width: 400px;
+}
+
+.todo-box {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.todo-box h1 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #0f172a;
+}
+
+.todo-input-area {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+#taskInput {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+  outline: none;
+  font-size: 14px;
+}
+
+#taskInput:focus {
+  border-color: #d4af37;
+}
+
+#addBtn {
+  background: #d4af37;
+  color: #0f172a;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#addBtn:hover {
+  background: #b99630;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  background: #f1f5f9;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+li.completed {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+.delete-btn {
+  background: #dc2626;
+  color: #fff;
+  border: none;
+  padding: 5px 8px;
+  font-size: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.delete-btn:hover {
+  background: #b91c1c;
+}

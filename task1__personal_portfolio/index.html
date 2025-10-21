@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Thriveni | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">Thriveni Reddicherla</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">skills</a><li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  
+  <header id="home" class="hero-section">
+  <div class="hero-container">
+    
+    <div class="hero-image fade-down">
+      <img src="rtk.jpg" alt="Thriveni Reddicherla" />
+    </div>
+
+    <div class="hero-content fade-up">
+      <h1>Hi, I'm <span>Thriveni Reddicherla</span> 👋</h1>
+      <p class="role">B.Tech 2nd Year • Web Development Enthusiast</p>
+
+      <p>
+        I craft clean, responsive websites and explore modern technologies like 
+        <strong>React</strong> and <strong>Node.js</strong>. Passionate about turning ideas into impactful digital experiences 🚀
+      </p>
+
+      <a href="#projects" class="btn">Explore My Work</a>
+    </div>
+  </div>
+</header>
+
+  </header>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects-container">
+      <div class="project-card slide-up">
+  <img src="project1.jpg" alt="AI Vet Consultation Project" class="project-image" />
+  <h3>AI Vet Consultation Platform 🐾</h3>
+  <p>
+    An innovative platform built in my 1st year that integrates 
+    <strong>AI-based veterinary consultation</strong> with an 
+    <strong>e-commerce system</strong> for pet products.
+  </p>
+  <a href="https://your-project-link.com" class="project-btn" target="_blank">View Project</a>
+</div>
+
+<div class="project-card slide-up">
+  <img src="project2.png" alt="Course Path — Translating Study Plans with AI" class="project-image" />
+  
+  <h3>Course Path — Translating Study Plans with AI 📚🤖</h3>
+  <p>
+    A short AI tool that converts study plans into simple, personalized learning paths.
+  </p>
+  <a href="https://github.com/yourname/course-path" class="project-btn" target="_blank" rel="noopener noreferrer">View Project</a>
+</div>
+      
+    </div>
+  </section>
+<section id="skills">
+  <h2>My Skills</h2>
+  <div class="skills-container">
+
+    <div class="skill-card fade-up">
+      <h3>💻 Frontend</h3>
+      <p>HTML5, CSS, JavaScript, Responsive Design</p>
+    </div>
+
+    <div class="skill-card fade-up">
+      <h3>⚙️ Backend</h3>
+      <p>Node.js (Basics), React, Django</p>
+    </div>
+
+    <div class="skill-card fade-up">
+      <h3>🧰 Tools & Others</h3>
+      <p>Git, GitHub, VS Code, Problem Solving, Teamwork</p>
+    </div>
+
+  </div>
+</section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="rkvt2006@gmail.com">rkvt2006@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/thriveni-reddicherla-6a4747358/" target="_blank">linkedin.com/in/Thriveni Reddicherla</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Thriveni | Crafted with ❤️ and clean code</p>
+  </footer>
+
+  <script>
+  
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+</html>

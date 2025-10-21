@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task 2 - Contact Form | Thriveni</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="contact-wrapper">
+    <div class="contact-box">
+      <h2>Contact Us</h2>
+      <p class="contact-subtitle">Have a question or feedback? Fill the form below.</p>
+
+      <form id="contactForm">
+        <div class="form-control">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Enter your full name" />
+        </div>
+
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter your email address" />
+        </div>
+
+        <div class="form-control">
+          <label for="message">Message</label>
+          <textarea id="message" placeholder="Write your message here"></textarea>
+        </div>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
+      <p id="responseMsg" class="response"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
