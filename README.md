@@ -1,0 +1,2 @@
+# CodeVeda
+🧠 CodeVeda Web Development Internship  This repository contains all the tasks and projects completed during my CodeVeda Web Development Internship. Each task showcases my learning and skills in HTML, CSS, and JavaScript, focusing on creating responsive, user-friendly, and visually appealing web designs.  📂 Includes:  Task 1: Personal Portfolio Website  Task 2: Contact Form  Task 3: To Do List Application  💡 Tech Stack: HTML | CSS | JavaScript
